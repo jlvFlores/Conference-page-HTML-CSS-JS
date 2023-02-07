@@ -39,7 +39,7 @@ h2 {
 .btn {
   width: 92%;
   padding: 0.5rem;
-  border: 2px solid #ec5242;
+  border: 3px solid #ec5242;
   color: #ec5242;
   background-color: #fff;
 }
@@ -182,10 +182,10 @@ h1 {
 }
 
 .cards-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 1rem;
   width: 92%;
+  margin-bottom: 2rem;
 }
 
 .program-card {
@@ -206,14 +206,15 @@ h1 {
 .program-card h3 {
   min-width: 90px;
   max-width: 25%;
+  margin: 0;
 }
 
 .program-card p {
   margin-right: 0.75rem;
-  max-width: 60%;
+  width: 60%;
 }
 
-#programs a {
+.program-btn {
   font-size: 1.25rem;
   width: 70%;
   margin: 2rem 0;
@@ -224,6 +225,11 @@ h1 {
   text-decoration: none;
   text-align: center;
 }
+
+.program-link {
+  display: none;
+}
+
 
 /* Guest */
 
@@ -236,7 +242,8 @@ h1 {
 }
 
 .guest-card {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -244,8 +251,8 @@ h1 {
 }
 
 .guest-image {
-  height: 115px;
-  width: 115px;
+  height: 110px;
+  width: 110px;
   position: relative;
   background-image: url('assets/images/Checkers.png');
   background-repeat: no-repeat;
@@ -255,7 +262,7 @@ h1 {
 .guest-image img {
   max-width: 100px;
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 0;
 }
 
@@ -284,17 +291,6 @@ h1 {
 
 .guest-desc {
   font-weight: 600;
-}
-
-.see-more-btn {
-  font-size: 1.25rem;
-  width: 92%;
-  margin: 2rem 0;
-  padding: 2rem 0;
-  background-color: #fff;
-  border: 1px solid #272a31;
-  text-decoration: none;
-  text-align: center;
 }
 
 /* About */
@@ -409,7 +405,57 @@ footer {
     width: 70%;
   }
 
+  .program-container {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.25rem;
+  }
+
+  .program-card {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .program-card img {
+    margin: 1rem 0 0;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .program-card h3 {
+    min-width: 0;
+    max-width: none;
+  }
+
+  .program-card p {
+    margin: 0 0 1rem;
+    width: 95%;
+    text-align: center;
+  }
+
+  .program-btn {
+    display: none;
+  }
+
+  .program-link {
+    display: block;
+    text-underline-offset: 5px;
+    margin-bottom: 2rem;
+  }
+
+  .guest-container {
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+  }
+
   .past-celebrations-container {
     flex-wrap: nowrap;
+  }
+
+  footer {
+    justify-content: start;
+    margin-left: 15%;
   }
 }
