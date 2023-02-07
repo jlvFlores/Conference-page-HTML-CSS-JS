@@ -41,7 +41,7 @@ h2 {
   padding: 0.5rem;
   border: 2px solid #ec5242;
   color: #ec5242;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /* Header */
@@ -76,18 +76,10 @@ nav {
   z-index: 1;
 }
 
-.drawer nav{
+.drawer nav {
   height: 100vh;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.drawer ul{
-  padding: 0;
-}
-
-.drawer li{
-  margin: 0 1rem 2.5rem;
 }
 
 nav a {
@@ -98,6 +90,14 @@ nav ul {
   list-style-type: none;
 }
 
+.drawer ul {
+  padding: 0;
+}
+
+.drawer li {
+  margin: 0 1rem 2.5rem;
+}
+
 .menu-icon,
 .exit-icon {
   font-size: 2rem;
@@ -106,6 +106,11 @@ nav ul {
 
 .menu a {
   color: #272a31;
+}
+
+.event-details a {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .menu a:active {
@@ -158,11 +163,6 @@ h1 {
 
 .event-location {
   font-size: 1.125rem;
-  font-weight: 700;
-}
-
-.event-details a {
-  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -338,10 +338,10 @@ h1 {
 }
 
 .centered {
-  color: #ffffff;
+  color: #fff;
 }
 
-.centered span{
+.centered span {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -388,7 +388,7 @@ footer {
 @media only screen and (min-width: 768px) {
   header {
     justify-content: space-around;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .menu-icon {
