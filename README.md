@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Conference-page-HTML-CSS-JS
+# Module1-Capstone-project
 
 <!-- TABLE OF CONTENTS -->
 
@@ -27,11 +27,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Conference-page] <a name="about-project"></a>
+# 📖 [Module1-Capstone-project] <a name="about-project"></a>
 
 > The final boss of this module.
 
-**[Conference-page]** is my capstone project for module 1 of the microverse program. If you're interested in knowing more about my thought process through the project, you can see my [loom video]().
+**[Module1-Capstone-project]** is the final project for module 1 of the microverse program. If you're interested in knowing more about my thought process through the project, you can see my [loom video]().
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,6 +63,7 @@
 
 - Contains two pages: a home page and an about page.
 - It's page templates are responsive for mobile and desktop.
+- JS functions that display a menu dropdown and that load HTML elements dynamically.
 - Has working linters to encourage clean code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,7 +74,7 @@
 
 > Here is a link to the demo project.
 
-- With the use of [GitHub pages]()
+- With the use of [GitHub pages](https://jlvflores.github.io/Module1-Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +92,7 @@ In order to run this project you need:  A web browser
 
 ### Setup
 
-Clone this [repository](https://github.com/jlvFlores/Conference-page-HTML-CSS-JS) to your desired folder
+Clone this [repository](https://github.com/jlvFlores/Module1-Capstone-project) to your desired folder
 
 ### Install
 
@@ -107,7 +108,7 @@ To run tests, run the following command:  Press the Go Live button on Visual Stu
 
 ### Deployment
 
-You can deploy this project using:  Using [GitHub pages]()
+You can deploy this project using:  Using [GitHub pages](https://jlvflores.github.io/Module1-Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
