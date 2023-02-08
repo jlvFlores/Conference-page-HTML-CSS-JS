@@ -31,7 +31,7 @@
 
 > The final boss of this module.
 
-**[Module1-Capstone-project]** is the final project for module 1 of the microverse program. If you're interested in knowing more about my thought process through the project, you can see my [loom video]().
+**[Module1-Capstone-project]** is the final project for module 1 of the microverse program. If you're interested in knowing more about my thought process through the project, you can see my [video](](https://youtu.be/FNU_4C8fYSM)) where I go over my project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
