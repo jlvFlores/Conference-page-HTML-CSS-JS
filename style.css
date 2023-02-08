@@ -26,6 +26,10 @@ body {
   display: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 h2 {
   margin: 2rem 0;
   padding-bottom: 1rem;
@@ -49,9 +53,31 @@ h2 {
 header {
   position: fixed;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   width: 100%;
   z-index: 1;
+}
+
+.config-bar {
+  width: 100%;
+  background-color: #272a31;
+  display: none;
+  font-size: 0.875rem;
+}
+
+.config-bar ul {
+  padding: 0;
+  margin: 5px 12.5%;
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  gap: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
@@ -86,10 +112,6 @@ nav a {
   text-decoration: none;
 }
 
-nav ul {
-  list-style-type: none;
-}
-
 .drawer ul {
   padding: 0;
 }
@@ -111,10 +133,6 @@ nav ul {
 .event-details a {
   font-size: 1rem;
   font-weight: 700;
-}
-
-.menu a:active {
-  color: #ec5242;
 }
 
 /* Headline */
@@ -383,8 +401,15 @@ footer {
 
 @media only screen and (min-width: 768px) {
   header {
-    justify-content: space-around;
     background-color: #fff;
+  }
+
+  .config-bar {
+    display: block;
+  }
+
+  .navbar {
+    justify-content: space-around;
   }
 
   .menu-icon {
