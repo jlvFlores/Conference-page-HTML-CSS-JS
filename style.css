@@ -131,7 +131,7 @@ nav ul {
 }
 
 .headline-con {
-  width: 95%;
+  width: 90%;
 }
 
 .headline-con > p {
@@ -371,13 +371,14 @@ h1 {
 /* Footer */
 
 footer {
-  display: flex;
-  justify-content: center;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  gap: 5%;
   font-weight: 500;
+  height: 20vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -398,6 +399,10 @@ footer {
   .menu ul {
     display: flex;
     gap: 2rem;
+  }
+
+  .headline-con {
+    width: 60%;
   }
 
   .description {
@@ -454,7 +459,8 @@ footer {
   }
 
   footer {
-    justify-content: start;
-    margin-left: 15%;
+    grid-template-columns: 2fr 3fr;
+    width: 60%;
+    margin: 0 20%;
   }
 }
